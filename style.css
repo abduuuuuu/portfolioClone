@@ -2,8 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  
     text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
 }
 header{
     display: flex;
@@ -50,6 +53,7 @@ transition: .4s;
     background-color: transparent;
     border: 2px solid rgb(231, 31, 31);
     transition: .4s;
+    cursor: pointer;
 }
 /*home section start*/
 .home{
@@ -79,8 +83,7 @@ margin-bottom: 30px;
 }
 .k{
    display: flex;
-   margin-top: 7
-   0px;
+   margin-top: 70px;
 }
 .k .child{
     margin-right: 40px;
@@ -93,4 +96,125 @@ margin-bottom: 30px;
 .k .child p{
     color: rgb(228, 228, 228);
     font-family: 'Josefin Sans', sans-serif;
+}
+/*about section start*/
+
+.about{
+    display: flex;
+   
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    
+}
+ .about {
+padding-left: 23%;
+ }
+ .about img{
+     margin-right: 10%;
+ }
+    
+.about .aboutt h2{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 65px;
+}
+.about .aboutt h5{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 23px;
+    margin-top: 20px;
+}
+.about .aboutt p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #585772;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+ .sticky{
+     position: fixed;
+     transition: .4s;
+ }   
+ .btnWhite:hover{
+    color: black;
+    cursor: pointer;
+ }
+ /*service section start*/
+ .service{
+     background-color: whitesmoke;
+height: 100vh;
+width: 100%;
+
+ }
+ .service .title{
+     text-align: center;
+     padding-top: 100px;
+     margin-bottom: 30px;
+ }
+ .title p:first-child{
+     color:#ef0454;
+     font-weight: bold;
+     margin-bottom: 20px;
+     font-size: 20px
+ }
+ .title h2{
+     color: black;
+     font-size: 50px;
+     margin-bottom: 20px;
+     
+ }
+ .title p:last-child{
+     color: #585772;
+ }
+ .services{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .services .box{
+     background-color: white;
+     padding: 70px 40px;
+     text-align: center;
+
+     
+ }
+ .services .box i{
+     color: #ef0454;
+     margin-bottom: 20px;
+     font-size: 25px;
+ }
+ .services .box h3{
+     font-size: 25px;
+     margin-bottom: 20px;
+
+ }
+ .services .box p{
+     color: #585772;
+ }
+
+ .services2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.services2 .box{
+    background-color: white;
+    padding: 70px 40px;
+    text-align: center;
+
+    
+}
+.services2 .box i{
+    color: #ef0454;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.services2 .box h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+.services2 .box p{
+    color: #585772;
 }
